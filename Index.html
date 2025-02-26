@@ -18,33 +18,48 @@
   <body>
     <h1>Slot Game Tracker</h1>
     
-    <!-- Content Index -->
-    <div id="content-index">
-      <h2>Contents</h2>
+    <!-- Extended Description -->
+    <div id="description">
+      <p>Welcome to Slot Game Tracker! This application is designed to help you keep track of your slot game sessions and their results. Here’s how you can use this application to easily log your gaming activities and analyze your performance:</p>
+      
+      <h2>Features:</h2>
       <ul>
-        <li><a href="#form-section">Form Section</a></li>
-        <li><a href="#tracked-results">Tracked Results</a></li>
+        <li><strong>Game Logging:</strong> Record the name of the slot games you play.</li>
+        <li><strong>Result Tracking:</strong> Keep track of your results after each gaming session.</li>
+        <li><strong>Stored Information:</strong> Data is stored locally on your browser, ensuring privacy and quick access.</li>
+        <li><strong>Simple Interface:</strong> A user-friendly design allowing easy data entry and retrieval.</li>
       </ul>
+      
+      <h2>Benefits:</h2>
+      <ul>
+        <li>Provides a comprehensive log of your gaming sessions.</li>
+        <li>Helps you analyze your performance over time.</li>
+        <li>Easy to use and accessible from any device with a browser.</li>
+        <li>Ensures your data remains private and secure since it is stored locally.</li>
+      </ul>
+      
+      <h2>How to Use:</h2>
+      <ol>
+        <li>Enter the name of the slot game in the 'Game' field.</li>
+        <li>Enter your result in the 'Result' field (e.g., win amount, loss amount, or other metrics).</li>
+        <li>Click the 'Submit' button to save your entry.</li>
+        <li>Your logged entries will appear below the form under 'Tracked Results'.</li>
+      </ol>
+      
+      <p>For more information and games, visit: 
+      <a href="http://pkh5008.pk7pp.vip/?referralCode=idl1813" target="_blank">Play Slot Games</a></p>
     </div>
 
-    <!-- Form Section -->
-    <div id="form-section">
-      <h2>Form Section</h2>
-      <form id="slotDataForm">
-        <label for="game">Game:</label>
-        <input type="text" id="game" name="game" required>
-        <label for="result">Result:</label>
-        <input type="text" id="result" name="result" required>
-        <button type="submit">Submit</button>
-      </form>
-    </div>
-
-    <!-- Tracked Results Section -->
-    <div id="tracked-results">
-      <h2>Tracked Results</h2>
-      <ul id="slotDataList"></ul>
-    </div>
-
+    <form id="slotDataForm">
+      <label for="game">Game:</label>
+      <input type="text" id="game" name="game" required>
+      <label for="result">Result:</label>
+      <input type="text" id="result" name="result" required>
+      <button type="submit">Submit</button>
+    </form>
+    
+    <h2>Tracked Results</h2>
+    <ul id="slotDataList"></ul>
     <script src="script.js"></script>
   </body>
 </html>
