@@ -1,0 +1,48 @@
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+/* Content Index Styling */
+#content-index {
+  margin-bottom: 20px;
+}
+
+#content-index ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+#content-index ul li {
+  margin: 5px 0;
+}
